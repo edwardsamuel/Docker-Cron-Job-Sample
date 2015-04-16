@@ -37,5 +37,6 @@ Create a `Dockerfile` to run our cronjob using cron tab.
 
 ### How to run
 
-    docker build -t edwardsp/cron-job-sample
+    git clone https://github.com/edwardsamuel/Docker-Cron-Job-Sample.git
+    docker build -t edwardsp/cron-job-sample ./Docker-Cron-Job-Sample
     docker run -it edwardsp/cron-job-sample
